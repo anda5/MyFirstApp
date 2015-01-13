@@ -46,7 +46,7 @@ public class WebSite {
         public void setDescription(String _description){
             this._description=_description;
         }
-        public void setSitelink(String _siteLink){
+        public void setSiteLink(String _siteLink){
             this._siteLink=_siteLink;
         }
         private void setFeedLink(String _feedLink){
