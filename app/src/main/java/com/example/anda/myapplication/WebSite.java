@@ -14,16 +14,18 @@ public class WebSite {
     public WebSite(){
     }
 
-    public WebSite(String title,String description,String siteLink,String feedLink){
-        _title=title;
-        _description=description;
-        _siteLink=siteLink;
-        _feedLink=feedLink;
+    public WebSite(String title, String description, String siteLink, String feedLink){
+        this._title = title;
+        this._description = description;
+        this._siteLink = siteLink;
+        this._feedLink = feedLink;
     }
-    public WebSite(WebSite webSite){
-        super();
-        _id= webSite._id;
+
+    public WebSite(int id, String title, String description, String siteLink, String feedLink){
+        this(title, description, siteLink, feedLink);
+        this._id = id;
     }
+
     public int getId() {
         return _id;
     }
@@ -39,19 +41,20 @@ public class WebSite {
     public String getFeedLink(){
         return _feedLink;
     }
-    public void setId(int _id) {
-        this._id = _id;
+
+    public void setId(int id) {
+        this._id = id;
     }
-    public void setTitle(String _title){
-        this._title=_title;
+    public void setTitle(String title){
+        this._title = title;
     }
-    public void setDescription(String _description){
-        this._description=_description;
+    public void setDescription(String description){
+        this._description = description;
     }
-    public void setSitelink(String _siteLink){
-        this._siteLink=_siteLink;
+    public void setSitelink(String siteLink){
+        this._siteLink = siteLink;
     }
-    private void setFeedLink(String _feedLink){
-        this._feedLink=_feedLink;
+    private void setFeedLink(String feedLink){
+        this._feedLink = feedLink;
     }
 }
