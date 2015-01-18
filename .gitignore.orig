@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+.idea/workspace.xml
+=======
+.gradle
+.idea
+/local.properties
+.DS_Store
+/build
+>>>>>>> Predator7/project-refactorings
