@@ -54,7 +54,7 @@ public class WebSite {
     public void setSitelink(String siteLink){
         this._siteLink = siteLink;
     }
-    private void setFeedLink(String feedLink){
+    public void setFeedLink(String feedLink){
         this._feedLink = feedLink;
     }
 }
