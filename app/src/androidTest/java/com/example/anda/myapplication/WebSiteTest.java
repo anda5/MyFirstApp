@@ -35,12 +35,6 @@ public class WebSiteTest extends InstrumentationTestCase {
     assertEquals(description,webSite.getDescription());
     assertEquals(siteLink,webSite.getSiteLink());
     assertEquals(feedLink,webSite.getFeedLink());
-
-
-
    }
-
-
-
 
 }
